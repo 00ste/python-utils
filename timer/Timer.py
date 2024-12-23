@@ -1,6 +1,6 @@
 import time
 from math import floor
-from playsound import playsound
+# from playsound import playsound
 
 class Timer:
     def __init__(self, duration) -> None:
@@ -23,6 +23,6 @@ class Timer:
         print("00:00:00")
     
     def playAlarm(self): 
-        while(True):
-            print('Time up!!')
-            playsound('/home/stefano/code/python/timer/alarm.wav')
+        print('Time up!!')
+        # while(True):
+            # playsound('/home/stefano/code/python/timer/alarm.wav')
